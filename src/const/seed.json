@@ -1,0 +1,2622 @@
+[
+  {
+    "lesson": [
+      {
+        "id": "0ad1cfcf-4313-482c-badd-91e294a995d4",
+        "title": "Mathematics",
+        "description": "Learn about numbers and calculations",
+        "start_time": "2023-10-07T03:05:40.554Z",
+        "end_time": "2023-10-07T00:38:04.434Z",
+        "created_at": "2023-10-07T06:09:36.569Z",
+        "updated_at": "2023-10-07T08:54:30.116Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "69b79501-f172-4128-9f91-d376ed1b753f",
+        "title": "English Literature",
+        "description": "Explore classic literature works",
+        "start_time": "2023-10-07T04:45:20.950Z",
+        "end_time": "2023-10-07T08:45:46.381Z",
+        "created_at": "2023-10-06T21:13:05.507Z",
+        "updated_at": "2023-10-06T18:26:30.061Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "2541b472-6a88-46f9-994b-993ed28b1643",
+        "title": "Physics",
+        "description": "Study the laws of motion and energy",
+        "start_time": "2023-10-07T08:14:37.248Z",
+        "end_time": "2023-10-06T17:20:15.718Z",
+        "created_at": "2023-10-07T03:30:05.385Z",
+        "updated_at": "2023-10-07T03:11:31.563Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "01eb6ece-37e3-4043-9ca2-03e57c0a65a8",
+        "title": "History",
+        "description": "Discover past events and their impact",
+        "start_time": "2023-10-07T09:59:00.090Z",
+        "end_time": "2023-10-07T03:39:52.588Z",
+        "created_at": "2023-10-07T05:35:18.198Z",
+        "updated_at": "2023-10-07T06:26:22.787Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a1b7a68f-1a29-4d5c-8722-f964b4bab9a8",
+        "title": "Chemistry",
+        "description": "Understand the properties of matter and reactions",
+        "start_time": "2023-10-06T18:45:34.838Z",
+        "end_time": "2023-10-06T11:13:32.647Z",
+        "created_at": "2023-10-06T23:57:41.990Z",
+        "updated_at": "2023-10-06T22:57:24.091Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "93135e78-c7b6-4595-a81d-c9b4aa0ae30e",
+        "date": "2023-10-07T03:31:26.921Z",
+        "status": "Present",
+        "created_at": "2023-10-07T07:40:25.338Z",
+        "updated_at": "2023-10-06T12:07:56.519Z",
+        "lesson_id": "a1b7a68f-1a29-4d5c-8722-f964b4bab9a8",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "868af45e-9702-4072-bb20-000b195dc4ad",
+        "date": "2023-10-07T03:41:17.564Z",
+        "status": "Absent",
+        "created_at": "2023-10-07T02:14:40.298Z",
+        "updated_at": "2023-10-06T14:14:13.589Z",
+        "lesson_id": "a1b7a68f-1a29-4d5c-8722-f964b4bab9a8",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "d43dfc12-bfc9-40a5-8ade-539f26800ae0",
+        "date": "2023-10-06T20:20:24.826Z",
+        "status": "Late",
+        "created_at": "2023-10-07T01:38:29.976Z",
+        "updated_at": "2023-10-06T18:00:57.454Z",
+        "lesson_id": "69b79501-f172-4128-9f91-d376ed1b753f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "4c6985d2-7599-4d2a-a22f-2859e9d90530",
+        "date": "2023-10-07T04:45:53.047Z",
+        "status": "Excused",
+        "created_at": "2023-10-07T04:54:41.448Z",
+        "updated_at": "2023-10-06T11:14:18.983Z",
+        "lesson_id": "a1b7a68f-1a29-4d5c-8722-f964b4bab9a8",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "65f1060f-7d6c-4f42-ba9e-7b1dd2dd4c93",
+        "date": "2023-10-07T08:18:42.900Z",
+        "status": "Tardy",
+        "created_at": "2023-10-06T17:10:24.817Z",
+        "updated_at": "2023-10-07T08:26:28.619Z",
+        "lesson_id": "69b79501-f172-4128-9f91-d376ed1b753f",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "5ccabdb1-c343-4e6c-bf10-53d73e4797d0",
+        "title": "Research Paper",
+        "description": "Conduct in-depth research on a chosen topic",
+        "due_date": "2023-10-07T00:40:39.704Z",
+        "created_at": "2023-10-07T00:06:15.334Z",
+        "updated_at": "2023-10-06T17:57:55.556Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "40da1c26-a216-423a-845b-92b672d02bcb",
+        "title": "Programming Project",
+        "description": "Develop a software application",
+        "due_date": "2023-10-06T15:37:43.283Z",
+        "created_at": "2023-10-06T22:37:21.174Z",
+        "updated_at": "2023-10-06T19:39:06.325Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "1c7fae4f-4b88-4262-8b5a-613d8653819f",
+        "title": "Creative Writing",
+        "description": "Write an original short story or poem",
+        "due_date": "2023-10-06T16:10:46.113Z",
+        "created_at": "2023-10-06T21:31:44.328Z",
+        "updated_at": "2023-10-07T03:27:49.624Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "17c43d07-2048-4da0-be76-3448ea90c3c9",
+        "title": "Problem Solving",
+        "description": "Solve complex mathematical problems",
+        "due_date": "2023-10-06T17:07:13.384Z",
+        "created_at": "2023-10-07T04:20:33.600Z",
+        "updated_at": "2023-10-06T15:28:40.539Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "9118649e-51c1-4ad0-b86c-34bb40042e31",
+        "title": "Data Analysis",
+        "description": "Analyze and interpret data sets",
+        "due_date": "2023-10-06T22:04:05.938Z",
+        "created_at": "2023-10-06T11:07:06.655Z",
+        "updated_at": "2023-10-07T00:32:14.422Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "6990094b-79f6-4603-b210-47bf34c1afd3",
+        "grade_grade": 85610,
+        "comment": "Excellent work!",
+        "date_given": "2023-10-07T04:08:26.697Z",
+        "created_at": "2023-10-07T06:50:11.209Z",
+        "updated_at": "2023-10-06T22:51:43.504Z",
+        "assignment_id": "40da1c26-a216-423a-845b-92b672d02bcb",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "bdc86066-bb2a-4880-938d-a17b53446624",
+        "grade_grade": 33252,
+        "comment": "Great effort!",
+        "date_given": "2023-10-07T03:16:32.346Z",
+        "created_at": "2023-10-06T21:17:51.137Z",
+        "updated_at": "2023-10-07T03:16:27.343Z",
+        "assignment_id": "5ccabdb1-c343-4e6c-bf10-53d73e4797d0",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "6431399c-0b99-4c92-b3e4-a043691648ca",
+        "grade_grade": 56116,
+        "comment": "Good job!",
+        "date_given": "2023-10-06T23:09:39.526Z",
+        "created_at": "2023-10-06T23:55:12.299Z",
+        "updated_at": "2023-10-06T11:02:11.071Z",
+        "assignment_id": "9118649e-51c1-4ad0-b86c-34bb40042e31",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "dcda1c85-ff9d-47bb-ad1a-1ff808edb898",
+        "grade_grade": 64721,
+        "comment": "Needs improvement",
+        "date_given": "2023-10-06T18:48:10.278Z",
+        "created_at": "2023-10-06T14:38:12.023Z",
+        "updated_at": "2023-10-07T03:40:02.559Z",
+        "assignment_id": "1c7fae4f-4b88-4262-8b5a-613d8653819f",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "8c1fdc0a-324d-4268-8e91-0b66b9d15f10",
+        "grade_grade": 70309,
+        "comment": "Well done!",
+        "date_given": "2023-10-06T20:53:48.969Z",
+        "created_at": "2023-10-07T02:53:07.196Z",
+        "updated_at": "2023-10-06T14:45:02.644Z",
+        "assignment_id": "9118649e-51c1-4ad0-b86c-34bb40042e31",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2304db5e-1a4f-42a1-9673-841a3b80b6f3",
+        "email": "Ahmad_Schuppe94@roq.tech",
+        "firstName": "Corbin",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/756.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "612570b7-f18a-4b16-9ec2-307cb270e2b1",
+        "email": "Jerad_Quitzon61@roq.tech",
+        "firstName": "Dorris",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70651400",
+        "tenantId": null
+      },
+      {
+        "reference": "136d9b27-13a8-4f6b-a82c-5127a529f423",
+        "email": "Lucinda_Bednar-Vandervort65@roq.tech",
+        "firstName": "Helene",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/362.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f5c02fdc-5e90-412f-b67f-b0eabc31b31a",
+        "email": "Mariano_Halvorson-Gleichner@roq.tech",
+        "firstName": "Soledad",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/863.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "179665f5-3ad3-4587-8139-9eae16edec07",
+        "email": "Cheyenne_Ondricka@roq.tech",
+        "firstName": "Domingo",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5552651",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lesson": [
+      {
+        "id": "faad056e-4484-4a29-9e9f-af7123a8a865",
+        "title": "Mathematics",
+        "description": "Learn about algebra and calculus",
+        "start_time": "2023-10-06T14:11:09.602Z",
+        "end_time": "2023-10-06T20:23:31.155Z",
+        "created_at": "2023-10-07T04:32:56.850Z",
+        "updated_at": "2023-10-06T10:56:45.312Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "bd701faf-8ca7-4199-99b9-397a19d2979f",
+        "title": "English Literature",
+        "description": "Explore classic literature works",
+        "start_time": "2023-10-06T19:08:01.748Z",
+        "end_time": "2023-10-06T21:16:25.498Z",
+        "created_at": "2023-10-07T09:21:21.510Z",
+        "updated_at": "2023-10-06T13:06:13.857Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f28e82f1-3e0e-4aa9-888f-744939736965",
+        "title": "Chemistry",
+        "description": "Discover the world of elements and compounds",
+        "start_time": "2023-10-07T01:57:11.153Z",
+        "end_time": "2023-10-06T14:28:12.780Z",
+        "created_at": "2023-10-07T05:11:38.620Z",
+        "updated_at": "2023-10-07T07:11:18.241Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d67603fe-713e-4ab8-b013-df281620cc53",
+        "title": "History",
+        "description": "Uncover the past events and civilizations",
+        "start_time": "2023-10-07T05:57:07.196Z",
+        "end_time": "2023-10-06T16:40:32.038Z",
+        "created_at": "2023-10-07T02:37:27.824Z",
+        "updated_at": "2023-10-07T09:48:00.807Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "81c687a6-b105-4838-9e87-49ce4437a264",
+        "title": "Physics",
+        "description": "Study the laws of motion and energy",
+        "start_time": "2023-10-06T10:44:27.356Z",
+        "end_time": "2023-10-06T11:23:27.440Z",
+        "created_at": "2023-10-06T12:37:45.869Z",
+        "updated_at": "2023-10-06T19:00:36.914Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "b73187d8-868f-4889-9650-6a67268fe5aa",
+        "date": "2023-10-07T08:25:33.450Z",
+        "status": "Present",
+        "created_at": "2023-10-06T15:40:09.185Z",
+        "updated_at": "2023-10-06T13:09:16.213Z",
+        "lesson_id": "faad056e-4484-4a29-9e9f-af7123a8a865",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "45ef323d-f383-45ad-98e3-1134687b5e2e",
+        "date": "2023-10-06T15:20:16.366Z",
+        "status": "Absent",
+        "created_at": "2023-10-07T03:04:52.612Z",
+        "updated_at": "2023-10-07T04:10:15.565Z",
+        "lesson_id": "f28e82f1-3e0e-4aa9-888f-744939736965",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "f0f8624d-3ab6-42e4-b60c-dd0778703b5f",
+        "date": "2023-10-07T06:34:01.977Z",
+        "status": "Late",
+        "created_at": "2023-10-06T20:15:49.691Z",
+        "updated_at": "2023-10-07T04:11:38.195Z",
+        "lesson_id": "81c687a6-b105-4838-9e87-49ce4437a264",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "87014c60-4571-4416-ac8e-bf67aa1e067c",
+        "date": "2023-10-07T02:45:43.427Z",
+        "status": "Excused",
+        "created_at": "2023-10-06T13:29:56.399Z",
+        "updated_at": "2023-10-06T17:20:22.572Z",
+        "lesson_id": "faad056e-4484-4a29-9e9f-af7123a8a865",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "c60d3a0d-4477-4cf3-9364-2137e79215e8",
+        "date": "2023-10-06T20:38:35.560Z",
+        "status": "On Leave",
+        "created_at": "2023-10-07T01:19:12.302Z",
+        "updated_at": "2023-10-07T07:00:43.982Z",
+        "lesson_id": "81c687a6-b105-4838-9e87-49ce4437a264",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "f65eb7e4-dd80-4fac-b37b-3e39cb677cb6",
+        "title": "Research Paper",
+        "description": "Conduct in-depth research on a specific topic",
+        "due_date": "2023-10-07T05:23:46.225Z",
+        "created_at": "2023-10-06T16:45:17.842Z",
+        "updated_at": "2023-10-06T11:44:48.089Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "ed6847c3-37f8-45b6-8d81-7d1845d6d2eb",
+        "title": "Group Project",
+        "description": "Collaborate with classmates to complete a group assignment",
+        "due_date": "2023-10-06T10:57:11.633Z",
+        "created_at": "2023-10-07T02:30:47.627Z",
+        "updated_at": "2023-10-07T05:36:05.734Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "845132b8-80cf-4c9e-b359-97954dd6a250",
+        "title": "Creative Presentation",
+        "description": "Deliver a unique and engaging presentation",
+        "due_date": "2023-10-07T03:43:55.903Z",
+        "created_at": "2023-10-07T01:30:37.580Z",
+        "updated_at": "2023-10-07T04:53:13.584Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "eebadc48-0950-4ac2-aaa6-0354ebd0272b",
+        "title": "Problem Solving Exercise",
+        "description": "Solve complex problems using critical thinking skills",
+        "due_date": "2023-10-07T09:33:08.407Z",
+        "created_at": "2023-10-06T23:49:20.163Z",
+        "updated_at": "2023-10-06T21:36:02.540Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c98bd459-f008-4cd4-83a6-f06af04dea2b",
+        "title": "Case Study",
+        "description": "Analyze real-life scenarios and propose solutions",
+        "due_date": "2023-10-06T11:38:59.266Z",
+        "created_at": "2023-10-07T00:50:51.546Z",
+        "updated_at": "2023-10-07T01:56:32.848Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "f4355d30-a558-4d6b-82bf-bdd0e083123f",
+        "grade_grade": 96805,
+        "comment": "Excellent work!",
+        "date_given": "2023-10-07T05:02:59.667Z",
+        "created_at": "2023-10-06T11:22:14.528Z",
+        "updated_at": "2023-10-07T06:18:56.758Z",
+        "assignment_id": "ed6847c3-37f8-45b6-8d81-7d1845d6d2eb",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f73b6fe2-b01b-4a8b-a647-09b99e69cc18",
+        "grade_grade": 65733,
+        "comment": "Great effort!",
+        "date_given": "2023-10-07T09:35:03.755Z",
+        "created_at": "2023-10-06T17:39:36.302Z",
+        "updated_at": "2023-10-07T10:04:57.491Z",
+        "assignment_id": "ed6847c3-37f8-45b6-8d81-7d1845d6d2eb",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "90a819b5-2310-4a50-83b7-c2a82db16c72",
+        "grade_grade": 79458,
+        "comment": "Good job!",
+        "date_given": "2023-10-07T00:09:32.124Z",
+        "created_at": "2023-10-06T12:03:16.135Z",
+        "updated_at": "2023-10-07T02:01:16.655Z",
+        "assignment_id": "c98bd459-f008-4cd4-83a6-f06af04dea2b",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "561a7897-a18a-45ac-a514-941e19b31b64",
+        "grade_grade": 57894,
+        "comment": "Keep up the good work!",
+        "date_given": "2023-10-07T09:36:35.676Z",
+        "created_at": "2023-10-06T16:03:01.365Z",
+        "updated_at": "2023-10-07T00:25:18.995Z",
+        "assignment_id": "f65eb7e4-dd80-4fac-b37b-3e39cb677cb6",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "77c19644-e115-46c3-ae19-e92085a12e66",
+        "grade_grade": 85854,
+        "comment": "Room for improvement",
+        "date_given": "2023-10-07T05:11:57.626Z",
+        "created_at": "2023-10-07T00:25:30.622Z",
+        "updated_at": "2023-10-06T20:03:49.791Z",
+        "assignment_id": "845132b8-80cf-4c9e-b359-97954dd6a250",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "afbaf39c-ea2f-492a-91a8-bc61c8e80b78",
+        "email": "Alysa43@roq.tech",
+        "firstName": "Rhianna",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/761.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "978c2c04-df91-4635-9915-d642180279b9",
+        "email": "Antonetta98@roq.tech",
+        "firstName": "Kaci",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1113.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6827dbaa-5680-4d2f-a76a-f9907c1b02f7",
+        "email": "Adrien.Doyle7@roq.tech",
+        "firstName": "Jamal",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78474436",
+        "tenantId": null
+      },
+      {
+        "reference": "e1c70073-9b3d-4991-a1f7-14df682a8d8c",
+        "email": "Gilbert73@roq.tech",
+        "firstName": "Josiane",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90624522",
+        "tenantId": null
+      },
+      {
+        "reference": "6487880c-1fa5-4097-ab53-5f139f67f599",
+        "email": "Kenyatta.Murray39@roq.tech",
+        "firstName": "Deborah",
+        "lastName": "Legros-Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1121.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lesson": [
+      {
+        "id": "ed40a8a9-717c-4786-90eb-8f0e4272b9da",
+        "title": "Mathematics",
+        "description": "Learn about numbers and calculations",
+        "start_time": "2023-10-07T02:37:43.894Z",
+        "end_time": "2023-10-07T08:34:00.472Z",
+        "created_at": "2023-10-06T19:45:06.642Z",
+        "updated_at": "2023-10-07T00:40:53.502Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "cfa46bf9-2359-4e0a-950e-98af38e8a02e",
+        "title": "Science",
+        "description": "Explore the natural world",
+        "start_time": "2023-10-06T15:23:35.569Z",
+        "end_time": "2023-10-07T02:04:43.598Z",
+        "created_at": "2023-10-07T01:27:04.152Z",
+        "updated_at": "2023-10-06T16:52:38.776Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d70c1603-6710-42a5-b25b-0f53dfeae9cc",
+        "title": "English",
+        "description": "Improve your language skills",
+        "start_time": "2023-10-07T09:10:29.839Z",
+        "end_time": "2023-10-07T01:15:16.102Z",
+        "created_at": "2023-10-07T09:57:54.795Z",
+        "updated_at": "2023-10-06T19:12:30.178Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "390b82db-980f-4ec3-9855-3ead8cdf4d2b",
+        "title": "History",
+        "description": "Discover the past",
+        "start_time": "2023-10-07T00:14:13.532Z",
+        "end_time": "2023-10-06T12:45:42.170Z",
+        "created_at": "2023-10-06T10:57:57.416Z",
+        "updated_at": "2023-10-06T14:26:04.126Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "3f68470f-39fc-4bb7-aaa6-67ec48d527fa",
+        "title": "Geography",
+        "description": "Study the Earth's surface",
+        "start_time": "2023-10-06T17:40:37.299Z",
+        "end_time": "2023-10-06T15:49:48.315Z",
+        "created_at": "2023-10-07T00:49:59.025Z",
+        "updated_at": "2023-10-07T04:31:34.867Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "5258295e-ae26-4063-93a7-dff7f13e2672",
+        "date": "2023-10-06T10:31:59.705Z",
+        "status": "Present",
+        "created_at": "2023-10-06T15:35:48.871Z",
+        "updated_at": "2023-10-07T06:28:56.718Z",
+        "lesson_id": "3f68470f-39fc-4bb7-aaa6-67ec48d527fa",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "56ae5341-a65a-443c-ba91-db76f5d2ffb0",
+        "date": "2023-10-06T20:56:01.742Z",
+        "status": "Absent",
+        "created_at": "2023-10-07T05:07:54.329Z",
+        "updated_at": "2023-10-07T09:46:35.235Z",
+        "lesson_id": "d70c1603-6710-42a5-b25b-0f53dfeae9cc",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "b8f70885-9bfd-454f-befe-c795ea8d6891",
+        "date": "2023-10-06T18:15:50.849Z",
+        "status": "Late",
+        "created_at": "2023-10-06T15:42:03.692Z",
+        "updated_at": "2023-10-07T00:46:16.075Z",
+        "lesson_id": "390b82db-980f-4ec3-9855-3ead8cdf4d2b",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "dd82a0ba-3cc6-4830-8359-84488229ac27",
+        "date": "2023-10-06T19:33:52.300Z",
+        "status": "Excused",
+        "created_at": "2023-10-07T05:18:11.333Z",
+        "updated_at": "2023-10-07T09:25:43.092Z",
+        "lesson_id": "cfa46bf9-2359-4e0a-950e-98af38e8a02e",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "fe0a536c-fa5f-4c6f-8a68-737547452e87",
+        "date": "2023-10-07T00:27:49.596Z",
+        "status": "Tardy",
+        "created_at": "2023-10-06T20:48:37.230Z",
+        "updated_at": "2023-10-06T17:37:31.570Z",
+        "lesson_id": "390b82db-980f-4ec3-9855-3ead8cdf4d2b",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "45e8417c-c98f-4e26-a965-441f9dc7fecb",
+        "title": "Research Project",
+        "description": "Conduct research on a chosen topic",
+        "due_date": "2023-10-06T23:39:12.550Z",
+        "created_at": "2023-10-07T06:34:11.380Z",
+        "updated_at": "2023-10-06T20:54:09.007Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "5244a26e-2cc0-44ed-8068-4758e32bae40",
+        "title": "Essay Writing",
+        "description": "Write an informative essay",
+        "due_date": "2023-10-06T16:27:09.355Z",
+        "created_at": "2023-10-06T21:51:40.152Z",
+        "updated_at": "2023-10-06T11:35:15.194Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "74c77858-79f0-48fe-9fe3-871fbf649e80",
+        "title": "Problem Solving",
+        "description": "Solve complex problems",
+        "due_date": "2023-10-07T02:00:19.462Z",
+        "created_at": "2023-10-06T20:16:12.802Z",
+        "updated_at": "2023-10-06T22:48:42.030Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c2ab6558-5d82-458a-a62a-9490570b79c1",
+        "title": "Creative Presentation",
+        "description": "Deliver a creative presentation",
+        "due_date": "2023-10-06T15:47:56.489Z",
+        "created_at": "2023-10-06T17:42:52.399Z",
+        "updated_at": "2023-10-07T04:35:28.192Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "1cce187c-9ede-45ea-a3ad-777813204254",
+        "title": "Data Analysis",
+        "description": "Analyze and interpret data",
+        "due_date": "2023-10-06T15:46:31.483Z",
+        "created_at": "2023-10-07T05:16:35.757Z",
+        "updated_at": "2023-10-07T00:51:41.353Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "d726d449-def9-44f1-817f-8cec702f3f90",
+        "grade_grade": 31217,
+        "comment": "Excellent work!",
+        "date_given": "2023-10-06T14:52:50.218Z",
+        "created_at": "2023-10-07T03:10:26.457Z",
+        "updated_at": "2023-10-06T19:43:47.991Z",
+        "assignment_id": "45e8417c-c98f-4e26-a965-441f9dc7fecb",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "35ed1a72-abc3-4586-8010-6a027ba1996b",
+        "grade_grade": 15344,
+        "comment": "Good effort",
+        "date_given": "2023-10-07T09:33:38.080Z",
+        "created_at": "2023-10-07T06:01:59.272Z",
+        "updated_at": "2023-10-07T09:52:45.336Z",
+        "assignment_id": "1cce187c-9ede-45ea-a3ad-777813204254",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "83b154e0-2370-4709-ad08-7c81a063346e",
+        "grade_grade": 29958,
+        "comment": "Needs improvement",
+        "date_given": "2023-10-07T06:32:25.037Z",
+        "created_at": "2023-10-06T20:16:44.562Z",
+        "updated_at": "2023-10-07T02:43:01.604Z",
+        "assignment_id": "1cce187c-9ede-45ea-a3ad-777813204254",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4f08e0e0-9717-4864-ac8e-20149dc0337a",
+        "grade_grade": 97093,
+        "comment": "Well done",
+        "date_given": "2023-10-07T02:20:51.422Z",
+        "created_at": "2023-10-06T14:46:31.953Z",
+        "updated_at": "2023-10-07T06:21:29.607Z",
+        "assignment_id": "c2ab6558-5d82-458a-a62a-9490570b79c1",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "7ebf528c-726e-427b-ba9b-9cb6e99d000e",
+        "grade_grade": 18115,
+        "comment": "Keep up the great work",
+        "date_given": "2023-10-06T12:10:02.147Z",
+        "created_at": "2023-10-07T08:13:27.574Z",
+        "updated_at": "2023-10-06T19:02:43.484Z",
+        "assignment_id": "c2ab6558-5d82-458a-a62a-9490570b79c1",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b79f7167-c06a-4295-843a-6b00048c6cf7",
+        "email": "Celestine.Bednar47@roq.tech",
+        "firstName": "Elmira",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39189727",
+        "tenantId": null
+      },
+      {
+        "reference": "4af6c266-2e33-4307-8951-cdd4cc553fb4",
+        "email": "Taya_Monahan90@roq.tech",
+        "firstName": "Delbert",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36071834",
+        "tenantId": null
+      },
+      {
+        "reference": "a9a75b93-ae60-46e3-8a0d-976dfc3be433",
+        "email": "Cole_Adams48@roq.tech",
+        "firstName": "Roselyn",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4380883",
+        "tenantId": null
+      },
+      {
+        "reference": "2752e489-b31a-4347-8446-473f4ae72252",
+        "email": "Hoyt_Walter20@roq.tech",
+        "firstName": "Sunny",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60604591",
+        "tenantId": null
+      },
+      {
+        "reference": "9f2c62c6-49c0-44b6-b770-0c449367b78e",
+        "email": "Orin4@roq.tech",
+        "firstName": "Doris",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85256259",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lesson": [
+      {
+        "id": "72a5a5f0-11c5-4c92-bad9-adb36c1badb9",
+        "title": "Introduction to Biology",
+        "description": "Learn the basic concepts of biology.",
+        "start_time": "2023-10-07T06:28:47.416Z",
+        "end_time": "2023-10-06T22:32:23.846Z",
+        "created_at": "2023-10-07T06:15:32.091Z",
+        "updated_at": "2023-10-06T14:53:17.737Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0a6f772a-473a-49d4-baf0-dde5322245e2",
+        "title": "History of Ancient Rome",
+        "description": "Explore the rise and fall of the Roman Empire.",
+        "start_time": "2023-10-06T10:46:39.342Z",
+        "end_time": "2023-10-06T20:48:56.284Z",
+        "created_at": "2023-10-07T06:19:57.982Z",
+        "updated_at": "2023-10-06T13:04:08.875Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c601409b-b6b2-41eb-9ec7-65db4296e541",
+        "title": "Introduction to Programming",
+        "description": "Get started with programming using Python.",
+        "start_time": "2023-10-07T02:45:41.177Z",
+        "end_time": "2023-10-06T18:26:58.907Z",
+        "created_at": "2023-10-06T16:17:57.368Z",
+        "updated_at": "2023-10-07T00:23:32.392Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "2654f9f4-c74e-4f11-952e-b87644978b4f",
+        "title": "Artificial Intelligence Fundamentals",
+        "description": "Discover the fundamentals of AI.",
+        "start_time": "2023-10-06T15:13:30.007Z",
+        "end_time": "2023-10-06T23:31:02.949Z",
+        "created_at": "2023-10-07T07:30:12.426Z",
+        "updated_at": "2023-10-07T10:04:37.747Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "6abe5efa-7b5e-485d-abbd-ba54b7664947",
+        "title": "Introduction to Psychology",
+        "description": "Understand the principles of psychology.",
+        "start_time": "2023-10-06T23:09:38.316Z",
+        "end_time": "2023-10-06T14:51:37.098Z",
+        "created_at": "2023-10-06T23:06:36.860Z",
+        "updated_at": "2023-10-06T14:06:58.827Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "5e46a725-2162-486b-b12a-a43733be6061",
+        "date": "2023-10-07T02:22:24.360Z",
+        "status": "Present",
+        "created_at": "2023-10-07T00:53:39.066Z",
+        "updated_at": "2023-10-07T00:52:00.983Z",
+        "lesson_id": "0a6f772a-473a-49d4-baf0-dde5322245e2",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "32f83c0f-4618-4724-b1c7-72f1e8d87e1b",
+        "date": "2023-10-06T11:10:00.657Z",
+        "status": "Absent",
+        "created_at": "2023-10-06T22:47:24.297Z",
+        "updated_at": "2023-10-07T10:12:16.679Z",
+        "lesson_id": "0a6f772a-473a-49d4-baf0-dde5322245e2",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "9be42aee-f723-46e1-9ea3-cd1158a3d5e7",
+        "date": "2023-10-06T20:33:36.234Z",
+        "status": "Late",
+        "created_at": "2023-10-06T20:42:50.169Z",
+        "updated_at": "2023-10-06T21:28:30.079Z",
+        "lesson_id": "c601409b-b6b2-41eb-9ec7-65db4296e541",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "52373ad1-2840-4e91-8b0a-753807e39f31",
+        "date": "2023-10-06T23:49:08.329Z",
+        "status": "Excused",
+        "created_at": "2023-10-06T17:31:58.328Z",
+        "updated_at": "2023-10-06T17:14:00.437Z",
+        "lesson_id": "0a6f772a-473a-49d4-baf0-dde5322245e2",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "c3c74a27-81ed-494c-a2d1-bb7e3db1bb30",
+        "date": "2023-10-06T21:44:12.339Z",
+        "status": "Tardy",
+        "created_at": "2023-10-07T08:02:04.039Z",
+        "updated_at": "2023-10-07T00:34:18.034Z",
+        "lesson_id": "2654f9f4-c74e-4f11-952e-b87644978b4f",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "50e97bc7-629b-4122-9fe6-d17aa6e67b7a",
+        "title": "Essay on Climate Change",
+        "description": "Write an essay discussing the impact of climate change on the environment.",
+        "due_date": "2023-10-06T21:21:46.988Z",
+        "created_at": "2023-10-07T08:36:35.807Z",
+        "updated_at": "2023-10-07T06:38:44.617Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "91efb853-9fd9-4c07-879d-67a24df0c0c1",
+        "title": "Math Problem Set",
+        "description": "Solve a set of math problems involving algebra and geometry.",
+        "due_date": "2023-10-07T06:44:38.220Z",
+        "created_at": "2023-10-06T18:23:55.604Z",
+        "updated_at": "2023-10-06T13:39:45.342Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a5dfa0d3-5637-4e9a-bd9c-69a6b1799606",
+        "title": "Design a Website",
+        "description": "Create a responsive website using HTML, CSS, and JavaScript.",
+        "due_date": "2023-10-06T11:01:37.635Z",
+        "created_at": "2023-10-06T16:30:20.927Z",
+        "updated_at": "2023-10-06T15:38:07.183Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4a70ba31-fddb-4ece-9a2b-d442f88867c2",
+        "title": "Research Paper on Artificial Intelligence",
+        "description": "Conduct research on AI and write a paper summarizing your findings.",
+        "due_date": "2023-10-06T11:46:28.897Z",
+        "created_at": "2023-10-06T10:51:39.645Z",
+        "updated_at": "2023-10-07T06:56:49.352Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "164cd2b3-1bce-4b28-b65b-fcbce280229a",
+        "title": "Programming Project",
+        "description": "Develop a program that solves a specific problem using a programming language of your choice.",
+        "due_date": "2023-10-07T03:09:10.810Z",
+        "created_at": "2023-10-06T13:18:38.843Z",
+        "updated_at": "2023-10-07T04:06:26.073Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "ed23402d-1f40-4cb1-87fa-3062b2831e23",
+        "grade_grade": 49139,
+        "comment": "Excellent work!",
+        "date_given": "2023-10-07T03:59:44.882Z",
+        "created_at": "2023-10-07T08:40:36.827Z",
+        "updated_at": "2023-10-06T13:13:20.633Z",
+        "assignment_id": "91efb853-9fd9-4c07-879d-67a24df0c0c1",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "08939b62-70b8-433a-8c4b-15cd3677404b",
+        "grade_grade": 841,
+        "comment": "Good effort.",
+        "date_given": "2023-10-06T11:30:56.686Z",
+        "created_at": "2023-10-06T10:41:05.375Z",
+        "updated_at": "2023-10-07T03:31:25.517Z",
+        "assignment_id": "4a70ba31-fddb-4ece-9a2b-d442f88867c2",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d2649ea9-1776-4fa4-bc61-ceb4ccb29ef4",
+        "grade_grade": 11199,
+        "comment": "Needs improvement.",
+        "date_given": "2023-10-07T03:49:31.886Z",
+        "created_at": "2023-10-06T23:03:41.025Z",
+        "updated_at": "2023-10-06T10:56:54.489Z",
+        "assignment_id": "a5dfa0d3-5637-4e9a-bd9c-69a6b1799606",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "cc3b248b-ef21-446c-aada-145649c7494a",
+        "grade_grade": 75386,
+        "comment": "Well done!",
+        "date_given": "2023-10-06T13:46:59.135Z",
+        "created_at": "2023-10-06T21:17:43.629Z",
+        "updated_at": "2023-10-07T05:41:21.785Z",
+        "assignment_id": "a5dfa0d3-5637-4e9a-bd9c-69a6b1799606",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "7b3f3dfb-0227-4e46-9647-4ea85c1ddb0d",
+        "grade_grade": 86123,
+        "comment": "Great job!",
+        "date_given": "2023-10-06T12:01:00.254Z",
+        "created_at": "2023-10-06T19:51:12.508Z",
+        "updated_at": "2023-10-07T10:05:53.169Z",
+        "assignment_id": "4a70ba31-fddb-4ece-9a2b-d442f88867c2",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "97ab9b24-b748-447b-9e03-fe328a77db54",
+        "email": "Keshawn4@roq.tech",
+        "firstName": "Shana",
+        "lastName": "Collins-Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16876879",
+        "tenantId": null
+      },
+      {
+        "reference": "9004780c-5720-4bad-a716-c44c91bb11b8",
+        "email": "Milan_MacGyver86@roq.tech",
+        "firstName": "Francis",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42467278",
+        "tenantId": null
+      },
+      {
+        "reference": "805d466b-3be5-4d00-84f9-78e48c1f6862",
+        "email": "Anastacio.Schumm@roq.tech",
+        "firstName": "Collin",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97936597",
+        "tenantId": null
+      },
+      {
+        "reference": "0676c13b-92c1-4c52-823c-2607b5bc50e2",
+        "email": "Jolie.McDermott@roq.tech",
+        "firstName": "Christophe",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69911629",
+        "tenantId": null
+      },
+      {
+        "reference": "5a83e691-a30c-4a4a-ae3e-6bf98bf7cc2d",
+        "email": "Chasity_Shields80@roq.tech",
+        "firstName": "Cleta",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87761902",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lesson": [
+      {
+        "id": "1b983102-13b7-40ef-9f9f-18dcc8812687",
+        "title": "Introduction to Biology",
+        "description": "Learn the basic concepts of biology",
+        "start_time": "2023-10-07T09:51:10.088Z",
+        "end_time": "2023-10-07T06:45:14.900Z",
+        "created_at": "2023-10-06T11:01:36.395Z",
+        "updated_at": "2023-10-06T18:06:38.246Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4fa5f545-825d-4fcb-88b1-ecc16b277b21",
+        "title": "History of World War II",
+        "description": "Explore the events and impact of World War II",
+        "start_time": "2023-10-06T15:13:48.544Z",
+        "end_time": "2023-10-07T08:56:44.395Z",
+        "created_at": "2023-10-07T03:30:22.013Z",
+        "updated_at": "2023-10-07T00:54:49.112Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b412e053-f9db-4c94-ae08-7076a64ffe51",
+        "title": "Introduction to Programming",
+        "description": "Get started with programming",
+        "start_time": "2023-10-06T12:18:15.238Z",
+        "end_time": "2023-10-06T16:57:03.955Z",
+        "created_at": "2023-10-06T14:05:03.742Z",
+        "updated_at": "2023-10-06T13:02:00.849Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c4cbe097-12f1-4623-8565-4afa0d3ae096",
+        "title": "Artificial Intelligence Basics",
+        "description": "Discover the fundamentals of artificial intelligence",
+        "start_time": "2023-10-06T23:19:44.366Z",
+        "end_time": "2023-10-06T17:53:47.246Z",
+        "created_at": "2023-10-07T06:23:39.711Z",
+        "updated_at": "2023-10-07T08:58:04.200Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a4c87bfd-ce06-49f3-b60f-6862f82203f5",
+        "title": "Introduction to Psychology",
+        "description": "Study the human mind and behavior",
+        "start_time": "2023-10-06T22:14:22.055Z",
+        "end_time": "2023-10-07T05:24:27.394Z",
+        "created_at": "2023-10-07T07:31:12.879Z",
+        "updated_at": "2023-10-06T17:41:37.256Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "29881848-c0f3-4ac9-8910-a1f2897449f6",
+        "date": "2023-10-06T23:15:32.445Z",
+        "status": "Present",
+        "created_at": "2023-10-06T12:37:22.105Z",
+        "updated_at": "2023-10-06T17:55:05.105Z",
+        "lesson_id": "a4c87bfd-ce06-49f3-b60f-6862f82203f5",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "8a139d75-820f-494e-b745-81c3086b71d6",
+        "date": "2023-10-06T15:03:32.791Z",
+        "status": "Absent",
+        "created_at": "2023-10-06T16:47:00.910Z",
+        "updated_at": "2023-10-06T17:23:06.665Z",
+        "lesson_id": "c4cbe097-12f1-4623-8565-4afa0d3ae096",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "f5169f20-b7c9-445c-b7dd-f38be0fcee13",
+        "date": "2023-10-06T18:21:51.062Z",
+        "status": "Late",
+        "created_at": "2023-10-06T22:10:55.496Z",
+        "updated_at": "2023-10-06T17:17:51.689Z",
+        "lesson_id": "a4c87bfd-ce06-49f3-b60f-6862f82203f5",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "10f839e1-a5f9-4b2e-ab95-27904d16b7a9",
+        "date": "2023-10-07T07:59:52.614Z",
+        "status": "Excused",
+        "created_at": "2023-10-06T12:31:04.096Z",
+        "updated_at": "2023-10-07T10:09:29.612Z",
+        "lesson_id": "a4c87bfd-ce06-49f3-b60f-6862f82203f5",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "8f84a73d-e006-450a-834c-ef8eb7b6d872",
+        "date": "2023-10-06T10:17:09.571Z",
+        "status": "Tardy",
+        "created_at": "2023-10-07T00:53:12.420Z",
+        "updated_at": "2023-10-07T01:02:04.116Z",
+        "lesson_id": "a4c87bfd-ce06-49f3-b60f-6862f82203f5",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "751d5617-579b-4fce-858a-b68a3a3da100",
+        "title": "Research Paper",
+        "description": "Write a research paper on a chosen topic",
+        "due_date": "2023-10-06T19:51:41.358Z",
+        "created_at": "2023-10-06T19:37:35.420Z",
+        "updated_at": "2023-10-07T07:31:52.705Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f1443ec8-7ee3-4bda-aca6-f7f5e9237f9c",
+        "title": "Programming Project",
+        "description": "Develop a programming project using a specific language",
+        "due_date": "2023-10-06T17:56:01.977Z",
+        "created_at": "2023-10-06T15:47:59.522Z",
+        "updated_at": "2023-10-07T08:33:27.663Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4fb9e012-dba7-4183-9736-138fbd88bae8",
+        "title": "Essay",
+        "description": "Compose an essay analyzing a literary work",
+        "due_date": "2023-10-07T05:15:47.893Z",
+        "created_at": "2023-10-06T18:30:10.947Z",
+        "updated_at": "2023-10-06T20:55:40.025Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "7d647ceb-013a-4efb-b5b1-caf3a1f49d42",
+        "title": "Case Study",
+        "description": "Conduct a case study on a real-life scenario",
+        "due_date": "2023-10-07T06:33:53.196Z",
+        "created_at": "2023-10-07T04:17:59.573Z",
+        "updated_at": "2023-10-07T09:48:11.806Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b2c24630-b602-4840-8d80-d009b70434c2",
+        "title": "Group Presentation",
+        "description": "Prepare and deliver a group presentation on a given topic",
+        "due_date": "2023-10-06T10:36:54.948Z",
+        "created_at": "2023-10-07T03:55:26.699Z",
+        "updated_at": "2023-10-06T10:33:17.368Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "7475aabd-426a-41ea-aab0-e484f3787efe",
+        "grade_grade": 18633,
+        "comment": "Excellent work!",
+        "date_given": "2023-10-07T00:42:18.563Z",
+        "created_at": "2023-10-07T05:12:07.588Z",
+        "updated_at": "2023-10-07T04:42:33.977Z",
+        "assignment_id": "7d647ceb-013a-4efb-b5b1-caf3a1f49d42",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "227120e0-1e26-4a64-a13a-de47fc9003ab",
+        "grade_grade": 47809,
+        "comment": "Good effort!",
+        "date_given": "2023-10-06T18:52:42.817Z",
+        "created_at": "2023-10-07T01:44:49.581Z",
+        "updated_at": "2023-10-06T19:55:07.850Z",
+        "assignment_id": "751d5617-579b-4fce-858a-b68a3a3da100",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "3fbddcab-0506-4c93-bc62-906d29a7465c",
+        "grade_grade": 50655,
+        "comment": "Needs improvement",
+        "date_given": "2023-10-06T21:00:54.656Z",
+        "created_at": "2023-10-06T11:07:52.000Z",
+        "updated_at": "2023-10-06T18:33:18.025Z",
+        "assignment_id": "751d5617-579b-4fce-858a-b68a3a3da100",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4b0e82d5-ee66-4cc7-a33b-ad6fc46eda72",
+        "grade_grade": 69447,
+        "comment": "Well done!",
+        "date_given": "2023-10-06T10:55:24.427Z",
+        "created_at": "2023-10-06T14:19:54.935Z",
+        "updated_at": "2023-10-06T15:29:32.927Z",
+        "assignment_id": "f1443ec8-7ee3-4bda-aca6-f7f5e9237f9c",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "bf533cdf-4e90-44ef-a7d1-f41d9d5864af",
+        "grade_grade": 39855,
+        "comment": "Great job!",
+        "date_given": "2023-10-06T15:11:03.877Z",
+        "created_at": "2023-10-06T23:02:26.397Z",
+        "updated_at": "2023-10-06T16:15:11.197Z",
+        "assignment_id": "b2c24630-b602-4840-8d80-d009b70434c2",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "47c7f489-ef7f-4a2c-b329-717b9d231569",
+        "email": "Astrid6@roq.tech",
+        "firstName": "Garrett",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10527745",
+        "tenantId": null
+      },
+      {
+        "reference": "3f861124-d0bc-4594-b13f-5984150969fe",
+        "email": "Lavonne_Durgan97@roq.tech",
+        "firstName": "Vernice",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/589.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a2623c61-c828-4764-b3c3-12a6661108c0",
+        "email": "Aditya_Dooley@roq.tech",
+        "firstName": "Kane",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/611.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0219760b-4fe5-4b57-bfc5-cc2ea4217d3b",
+        "email": "Ulices.Schmeler@roq.tech",
+        "firstName": "Albina",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/73.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e90ed309-75ef-4d2e-b570-0b7379f3db61",
+        "email": "Nash68@roq.tech",
+        "firstName": "Hassie",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/556.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lesson": [
+      {
+        "id": "b7123200-10c2-4a86-a81a-49e4e6070413",
+        "title": "Mathematics",
+        "description": "Learn the basics of mathematics",
+        "start_time": "2023-10-07T09:49:00.739Z",
+        "end_time": "2023-10-07T09:59:29.871Z",
+        "created_at": "2023-10-06T23:17:25.021Z",
+        "updated_at": "2023-10-06T21:44:36.098Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "cb4cbce5-3e47-4791-bc3e-48f210a3a3d2",
+        "title": "English Literature",
+        "description": "Explore classic English literature",
+        "start_time": "2023-10-07T07:10:35.322Z",
+        "end_time": "2023-10-07T06:54:21.892Z",
+        "created_at": "2023-10-07T05:44:21.990Z",
+        "updated_at": "2023-10-06T10:44:09.866Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "015a0ab1-be2f-47c1-bbcf-5260a978e9e7",
+        "title": "Physics",
+        "description": "Discover the principles of physics",
+        "start_time": "2023-10-06T17:01:22.460Z",
+        "end_time": "2023-10-07T06:31:13.094Z",
+        "created_at": "2023-10-07T01:43:34.701Z",
+        "updated_at": "2023-10-07T02:35:41.692Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "05a23cda-b80e-42d3-b7f4-ef0155e60a75",
+        "title": "History",
+        "description": "Study important events in history",
+        "start_time": "2023-10-07T09:39:52.365Z",
+        "end_time": "2023-10-06T18:44:24.528Z",
+        "created_at": "2023-10-07T03:01:54.637Z",
+        "updated_at": "2023-10-07T04:02:12.049Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "03da0871-b8a7-4e1a-8f5a-ef8b1283d8f7",
+        "title": "Chemistry",
+        "description": "Understand the properties of chemicals",
+        "start_time": "2023-10-07T02:53:05.248Z",
+        "end_time": "2023-10-07T08:09:13.872Z",
+        "created_at": "2023-10-06T19:51:54.917Z",
+        "updated_at": "2023-10-07T01:37:28.976Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "4d064c7d-40d1-4274-a440-9049a928bb61",
+        "date": "2023-10-06T23:28:37.693Z",
+        "status": "Present",
+        "created_at": "2023-10-06T22:36:05.205Z",
+        "updated_at": "2023-10-07T09:55:02.008Z",
+        "lesson_id": "015a0ab1-be2f-47c1-bbcf-5260a978e9e7",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "5a836c5a-f9bd-4148-8838-eda3df3f665b",
+        "date": "2023-10-06T19:09:24.713Z",
+        "status": "Absent",
+        "created_at": "2023-10-07T09:12:13.350Z",
+        "updated_at": "2023-10-07T00:26:16.602Z",
+        "lesson_id": "015a0ab1-be2f-47c1-bbcf-5260a978e9e7",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "196def79-7f58-4267-a0d5-2afadb02222b",
+        "date": "2023-10-07T02:13:45.748Z",
+        "status": "Late",
+        "created_at": "2023-10-07T09:11:56.764Z",
+        "updated_at": "2023-10-07T04:25:54.007Z",
+        "lesson_id": "b7123200-10c2-4a86-a81a-49e4e6070413",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "5388b59a-e8c9-4d60-9d57-721c4d790e11",
+        "date": "2023-10-07T09:38:36.000Z",
+        "status": "Excused",
+        "created_at": "2023-10-06T17:13:23.053Z",
+        "updated_at": "2023-10-06T16:59:11.811Z",
+        "lesson_id": "05a23cda-b80e-42d3-b7f4-ef0155e60a75",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "8bdf0b03-51a8-49fb-a17e-2e8822e9c5b2",
+        "date": "2023-10-06T19:22:48.303Z",
+        "status": "On Leave",
+        "created_at": "2023-10-06T10:44:36.696Z",
+        "updated_at": "2023-10-06T21:28:01.366Z",
+        "lesson_id": "cb4cbce5-3e47-4791-bc3e-48f210a3a3d2",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "c92c6884-46ef-4fc8-88ab-ac617b4e4be7",
+        "title": "Essay Writing",
+        "description": "Write an essay on a given topic",
+        "due_date": "2023-10-07T08:14:08.034Z",
+        "created_at": "2023-10-07T07:29:42.981Z",
+        "updated_at": "2023-10-06T11:21:05.355Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c02102b0-32c0-49c0-8765-02be82448253",
+        "title": "Problem Solving",
+        "description": "Solve complex problems using logical reasoning",
+        "due_date": "2023-10-07T03:16:05.649Z",
+        "created_at": "2023-10-06T20:45:42.551Z",
+        "updated_at": "2023-10-06T23:30:42.527Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "fd7416bf-6607-4742-ab79-10cdd7b5619b",
+        "title": "Data Analysis",
+        "description": "Analyze data and draw meaningful conclusions",
+        "due_date": "2023-10-06T20:46:21.398Z",
+        "created_at": "2023-10-06T19:39:01.677Z",
+        "updated_at": "2023-10-07T06:13:13.070Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "77335edb-533a-4b96-a6b8-3b858c17ad44",
+        "title": "Research Project",
+        "description": "Conduct research on a specific subject",
+        "due_date": "2023-10-07T03:25:38.605Z",
+        "created_at": "2023-10-06T20:16:45.615Z",
+        "updated_at": "2023-10-07T07:55:26.283Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "92786153-3f67-4931-8d94-82397b4c4c67",
+        "title": "Presentation",
+        "description": "Deliver a presentation on a chosen topic",
+        "due_date": "2023-10-06T21:24:44.220Z",
+        "created_at": "2023-10-06T19:06:47.479Z",
+        "updated_at": "2023-10-07T04:20:00.040Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "9593a9fb-1aea-4354-921f-d07b83f61b8e",
+        "grade_grade": 76567,
+        "comment": "Excellent work!",
+        "date_given": "2023-10-07T06:25:33.333Z",
+        "created_at": "2023-10-07T00:35:46.880Z",
+        "updated_at": "2023-10-06T15:02:50.345Z",
+        "assignment_id": "92786153-3f67-4931-8d94-82397b4c4c67",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "412f6c7c-2fd9-4fcf-b7ef-b71c31795360",
+        "grade_grade": 89626,
+        "comment": "Good effort",
+        "date_given": "2023-10-06T17:39:34.995Z",
+        "created_at": "2023-10-06T14:20:16.514Z",
+        "updated_at": "2023-10-06T13:36:29.071Z",
+        "assignment_id": "92786153-3f67-4931-8d94-82397b4c4c67",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "3552be5b-9b0b-422a-a3ae-2a58b652ca57",
+        "grade_grade": 19403,
+        "comment": "Needs improvement",
+        "date_given": "2023-10-07T07:30:29.100Z",
+        "created_at": "2023-10-07T04:17:10.286Z",
+        "updated_at": "2023-10-06T11:33:17.075Z",
+        "assignment_id": "fd7416bf-6607-4742-ab79-10cdd7b5619b",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "bb55c517-28d0-47aa-9a71-0b443648b153",
+        "grade_grade": 41433,
+        "comment": "Well done",
+        "date_given": "2023-10-07T09:04:39.176Z",
+        "created_at": "2023-10-06T12:16:28.948Z",
+        "updated_at": "2023-10-07T10:01:21.128Z",
+        "assignment_id": "92786153-3f67-4931-8d94-82397b4c4c67",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "48888fab-a6bb-4b0b-8d96-774c9e116411",
+        "grade_grade": 62091,
+        "comment": "Great job",
+        "date_given": "2023-10-07T09:52:07.747Z",
+        "created_at": "2023-10-06T16:07:05.051Z",
+        "updated_at": "2023-10-06T21:50:40.633Z",
+        "assignment_id": "c02102b0-32c0-49c0-8765-02be82448253",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e904dd79-8fac-42fb-beee-d4a998fd964f",
+        "email": "Emiliano18@roq.tech",
+        "firstName": "Elyssa",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85668507",
+        "tenantId": null
+      },
+      {
+        "reference": "a8728fde-5af6-466e-abd1-d56f80455c10",
+        "email": "Kirstin.Hauck@roq.tech",
+        "firstName": "Caitlyn",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/215.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9362a88d-8b5e-49ba-9940-109e30c21d84",
+        "email": "Magnolia74@roq.tech",
+        "firstName": "Wilhelmine",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35661184",
+        "tenantId": null
+      },
+      {
+        "reference": "6af26c78-fda5-4a4a-8a3a-9149c6ae27df",
+        "email": "Kaden_Breitenberg71@roq.tech",
+        "firstName": "Jerrell",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81824236",
+        "tenantId": null
+      },
+      {
+        "reference": "202a2b3e-109f-469a-aad4-b654f95d0d45",
+        "email": "Rosalia_Bode66@roq.tech",
+        "firstName": "Raphael",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62295522",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lesson": [
+      {
+        "id": "facbcabd-f77d-4b03-866b-9c6979936e62",
+        "title": "Mathematics",
+        "description": "Learn about numbers and calculations",
+        "start_time": "2023-10-06T22:45:36.615Z",
+        "end_time": "2023-10-07T01:38:13.143Z",
+        "created_at": "2023-10-07T04:56:31.340Z",
+        "updated_at": "2023-10-07T04:21:19.227Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a5c50493-78d8-4c15-83e2-2f1e089edf47",
+        "title": "Science",
+        "description": "Explore the natural world",
+        "start_time": "2023-10-06T16:28:48.906Z",
+        "end_time": "2023-10-06T21:45:32.809Z",
+        "created_at": "2023-10-06T23:48:53.402Z",
+        "updated_at": "2023-10-06T21:28:20.148Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d5c4dbd9-c3ce-4452-9efd-5487c41a6e1d",
+        "title": "English",
+        "description": "Improve your language skills",
+        "start_time": "2023-10-06T13:44:35.253Z",
+        "end_time": "2023-10-06T17:50:12.419Z",
+        "created_at": "2023-10-06T14:32:23.956Z",
+        "updated_at": "2023-10-06T12:58:19.414Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "ae0d5e2a-bb09-48c2-96c9-edcf5dbd51cb",
+        "title": "History",
+        "description": "Discover the past",
+        "start_time": "2023-10-06T14:03:29.781Z",
+        "end_time": "2023-10-07T05:18:53.495Z",
+        "created_at": "2023-10-06T21:34:43.357Z",
+        "updated_at": "2023-10-07T08:41:09.586Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a1d46152-4c16-4ae5-b37b-2116ec79e5de",
+        "title": "Geography",
+        "description": "Study the Earth and its features",
+        "start_time": "2023-10-07T10:00:39.066Z",
+        "end_time": "2023-10-07T00:10:17.530Z",
+        "created_at": "2023-10-06T16:54:06.536Z",
+        "updated_at": "2023-10-06T11:27:02.311Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "c19ebc12-8e59-42fb-aebe-a4f68e06318f",
+        "date": "2023-10-06T16:44:10.882Z",
+        "status": "Present",
+        "created_at": "2023-10-06T21:08:23.926Z",
+        "updated_at": "2023-10-07T00:08:26.643Z",
+        "lesson_id": "d5c4dbd9-c3ce-4452-9efd-5487c41a6e1d",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "c823171b-1d69-4b92-8e1f-2ebe1d82e128",
+        "date": "2023-10-07T09:15:44.818Z",
+        "status": "Absent",
+        "created_at": "2023-10-07T03:06:02.102Z",
+        "updated_at": "2023-10-07T06:18:28.616Z",
+        "lesson_id": "ae0d5e2a-bb09-48c2-96c9-edcf5dbd51cb",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "5386e13b-673e-4604-a1b9-881d35606f0c",
+        "date": "2023-10-06T23:50:50.398Z",
+        "status": "Late",
+        "created_at": "2023-10-07T01:52:07.619Z",
+        "updated_at": "2023-10-07T01:08:52.706Z",
+        "lesson_id": "a5c50493-78d8-4c15-83e2-2f1e089edf47",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "ce2eb0e4-8f55-4abe-8472-80dc97524c9f",
+        "date": "2023-10-06T14:58:19.506Z",
+        "status": "Excused",
+        "created_at": "2023-10-06T13:31:10.608Z",
+        "updated_at": "2023-10-06T19:31:09.557Z",
+        "lesson_id": "ae0d5e2a-bb09-48c2-96c9-edcf5dbd51cb",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "8e678839-6b9d-4955-b52a-647bf4f02bdb",
+        "date": "2023-10-07T06:22:55.046Z",
+        "status": "Tardy",
+        "created_at": "2023-10-07T00:20:27.893Z",
+        "updated_at": "2023-10-06T22:16:50.392Z",
+        "lesson_id": "a1d46152-4c16-4ae5-b37b-2116ec79e5de",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "04caa601-dbe9-4d2a-9c21-da2f871263e5",
+        "title": "Research Paper",
+        "description": "Conduct in-depth research on a chosen topic",
+        "due_date": "2023-10-07T05:09:37.420Z",
+        "created_at": "2023-10-07T00:53:05.467Z",
+        "updated_at": "2023-10-06T23:16:06.499Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "cd454864-8430-4ce1-a7c3-c04770f27061",
+        "title": "Math Problem Set",
+        "description": "Solve a set of mathematical problems",
+        "due_date": "2023-10-06T21:49:00.556Z",
+        "created_at": "2023-10-06T18:06:24.434Z",
+        "updated_at": "2023-10-06T19:13:22.941Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "63d4eba7-ea08-4c81-9f18-2e3df1a00c5a",
+        "title": "Essay Writing",
+        "description": "Write a persuasive essay on a given prompt",
+        "due_date": "2023-10-07T03:57:44.857Z",
+        "created_at": "2023-10-06T19:25:49.760Z",
+        "updated_at": "2023-10-07T00:26:17.132Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "3d677e1a-321c-4d4f-b3d3-7860db9b805a",
+        "title": "Science Experiment",
+        "description": "Perform a scientific experiment and analyze the results",
+        "due_date": "2023-10-06T16:02:28.151Z",
+        "created_at": "2023-10-07T05:56:26.236Z",
+        "updated_at": "2023-10-07T09:50:29.124Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d0bf4722-b872-4849-97d3-073aeb2edc6d",
+        "title": "Coding Project",
+        "description": "Develop a software application using a specific programming language",
+        "due_date": "2023-10-06T20:36:49.550Z",
+        "created_at": "2023-10-06T13:11:59.352Z",
+        "updated_at": "2023-10-07T03:17:27.144Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "03bee498-3251-4044-80be-7c6d3ebc73e5",
+        "grade_grade": 70046,
+        "comment": "Excellent work!",
+        "date_given": "2023-10-07T03:02:43.820Z",
+        "created_at": "2023-10-06T13:19:56.246Z",
+        "updated_at": "2023-10-07T02:28:49.548Z",
+        "assignment_id": "04caa601-dbe9-4d2a-9c21-da2f871263e5",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b85640ac-5c86-4345-ae81-8c6a6c80834a",
+        "grade_grade": 7354,
+        "comment": "Good effort",
+        "date_given": "2023-10-07T07:02:19.449Z",
+        "created_at": "2023-10-06T13:21:11.781Z",
+        "updated_at": "2023-10-06T11:13:47.911Z",
+        "assignment_id": "cd454864-8430-4ce1-a7c3-c04770f27061",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "96bf1ac2-ca14-4cff-80d2-de83bc7ebdbe",
+        "grade_grade": 55832,
+        "comment": "Needs improvement",
+        "date_given": "2023-10-06T22:33:56.281Z",
+        "created_at": "2023-10-07T04:58:53.135Z",
+        "updated_at": "2023-10-06T18:18:34.740Z",
+        "assignment_id": "cd454864-8430-4ce1-a7c3-c04770f27061",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "abce48b6-9a5b-47cc-8be6-3c045da34275",
+        "grade_grade": 40461,
+        "comment": "Well done",
+        "date_given": "2023-10-06T22:58:41.208Z",
+        "created_at": "2023-10-06T11:01:21.025Z",
+        "updated_at": "2023-10-07T04:16:49.725Z",
+        "assignment_id": "cd454864-8430-4ce1-a7c3-c04770f27061",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "67eeede3-2aa7-4d63-af65-0af28040c2a1",
+        "grade_grade": 21870,
+        "comment": "Great job",
+        "date_given": "2023-10-07T02:02:51.005Z",
+        "created_at": "2023-10-06T16:17:05.748Z",
+        "updated_at": "2023-10-06T23:44:19.143Z",
+        "assignment_id": "d0bf4722-b872-4849-97d3-073aeb2edc6d",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19197130-affe-4500-9780-3afc14d05018",
+        "email": "Ruben_Terry76@roq.tech",
+        "firstName": "Bryce",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57571461",
+        "tenantId": null
+      },
+      {
+        "reference": "ade7cff6-e00d-4a82-a963-f3d502e8409d",
+        "email": "Haylee.Champlin@roq.tech",
+        "firstName": "Sibyl",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1027.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c352483f-af06-4ec1-ba02-d203c82c44e5",
+        "email": "Mike_Johnston@roq.tech",
+        "firstName": "Hector",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/500.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a37dfa1-5582-4ef2-9889-bb3a28414262",
+        "email": "Arianna_Kilback@roq.tech",
+        "firstName": "Opal",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58318218",
+        "tenantId": null
+      },
+      {
+        "reference": "613bf390-99cc-4763-bb08-4c4c66670b6b",
+        "email": "Eloise.Walsh23@roq.tech",
+        "firstName": "Juliana",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1178.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lesson": [
+      {
+        "id": "86768df8-801e-478f-babc-e8c6e7302137",
+        "title": "Mathematics",
+        "description": "Learn advanced mathematical concepts",
+        "start_time": "2023-10-07T02:32:37.605Z",
+        "end_time": "2023-10-06T11:45:54.144Z",
+        "created_at": "2023-10-06T20:01:22.941Z",
+        "updated_at": "2023-10-07T06:56:26.136Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "60028632-83ad-4f47-a137-340db6174385",
+        "title": "English Literature",
+        "description": "Explore classic works of literature",
+        "start_time": "2023-10-07T10:11:28.499Z",
+        "end_time": "2023-10-07T01:12:59.881Z",
+        "created_at": "2023-10-07T09:58:37.308Z",
+        "updated_at": "2023-10-06T21:29:15.197Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "74e52fd0-9986-4760-a415-832dc2e2e9c5",
+        "title": "Physics",
+        "description": "Study the principles of physics",
+        "start_time": "2023-10-06T17:12:19.513Z",
+        "end_time": "2023-10-07T10:01:28.305Z",
+        "created_at": "2023-10-06T23:31:45.956Z",
+        "updated_at": "2023-10-07T05:18:31.824Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "6ab0a511-c477-42e7-bdec-fb547d48291c",
+        "title": "History",
+        "description": "Discover the events that shaped our world",
+        "start_time": "2023-10-06T15:02:32.359Z",
+        "end_time": "2023-10-06T15:31:05.802Z",
+        "created_at": "2023-10-06T14:17:35.552Z",
+        "updated_at": "2023-10-07T02:24:15.386Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "e9c521c5-f893-4ae7-93f8-37fc45ba4a7f",
+        "title": "Chemistry",
+        "description": "Explore the properties of chemical elements",
+        "start_time": "2023-10-06T14:12:42.718Z",
+        "end_time": "2023-10-06T17:47:55.135Z",
+        "created_at": "2023-10-06T15:15:05.160Z",
+        "updated_at": "2023-10-07T05:23:15.883Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "095e08c0-878d-4a40-b6ab-f981ce9a69d9",
+        "date": "2023-10-07T08:20:40.296Z",
+        "status": "Present",
+        "created_at": "2023-10-06T13:27:01.168Z",
+        "updated_at": "2023-10-07T03:52:36.279Z",
+        "lesson_id": "e9c521c5-f893-4ae7-93f8-37fc45ba4a7f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "c30f31a8-57bc-4429-8129-746527f2b5a6",
+        "date": "2023-10-07T04:21:45.867Z",
+        "status": "Absent",
+        "created_at": "2023-10-06T11:45:48.382Z",
+        "updated_at": "2023-10-07T02:37:15.607Z",
+        "lesson_id": "74e52fd0-9986-4760-a415-832dc2e2e9c5",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "861cb18d-f458-4005-aaef-4720739f1e74",
+        "date": "2023-10-06T16:33:11.690Z",
+        "status": "Late",
+        "created_at": "2023-10-07T05:39:27.050Z",
+        "updated_at": "2023-10-07T09:48:29.902Z",
+        "lesson_id": "e9c521c5-f893-4ae7-93f8-37fc45ba4a7f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "544e4d94-c0dc-4c1d-886b-f42380d566e7",
+        "date": "2023-10-07T06:11:29.323Z",
+        "status": "Excused",
+        "created_at": "2023-10-07T08:37:39.510Z",
+        "updated_at": "2023-10-07T07:01:33.384Z",
+        "lesson_id": "60028632-83ad-4f47-a137-340db6174385",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "fdf082c3-f24f-4667-9ddb-9deb58bd1fba",
+        "date": "2023-10-06T15:08:58.428Z",
+        "status": "On Time",
+        "created_at": "2023-10-06T11:52:36.135Z",
+        "updated_at": "2023-10-07T02:44:58.061Z",
+        "lesson_id": "6ab0a511-c477-42e7-bdec-fb547d48291c",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "934ab13d-d58a-4e98-9f9a-74c11f1f9105",
+        "title": "Research Paper",
+        "description": "Conduct in-depth research on a chosen topic",
+        "due_date": "2023-10-07T05:35:45.817Z",
+        "created_at": "2023-10-06T22:41:29.553Z",
+        "updated_at": "2023-10-06T23:33:01.400Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4c135d80-ab7c-43e1-bae8-1a91da3d7d9a",
+        "title": "Programming Project",
+        "description": "Develop a software application using a specific programming language",
+        "due_date": "2023-10-07T02:00:03.189Z",
+        "created_at": "2023-10-06T18:15:01.049Z",
+        "updated_at": "2023-10-06T14:41:56.933Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "63196556-800b-42d6-a210-4efa4705c812",
+        "title": "Creative Writing",
+        "description": "Write a compelling story or poem",
+        "due_date": "2023-10-06T16:50:12.920Z",
+        "created_at": "2023-10-06T19:30:59.879Z",
+        "updated_at": "2023-10-06T16:03:18.181Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "21993bf1-e98a-46b6-8c38-e954e4a0c1ef",
+        "title": "Lab Experiment",
+        "description": "Perform a scientific experiment in a controlled environment",
+        "due_date": "2023-10-06T23:11:55.910Z",
+        "created_at": "2023-10-06T17:50:38.008Z",
+        "updated_at": "2023-10-07T07:58:09.073Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a0a50132-9b53-40e3-b77a-3823cebf6daf",
+        "title": "Group Presentation",
+        "description": "Present findings and ideas to an audience",
+        "due_date": "2023-10-07T03:52:54.022Z",
+        "created_at": "2023-10-07T09:42:55.513Z",
+        "updated_at": "2023-10-07T04:20:21.502Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "497cb663-374f-4380-90e4-dcb4e505d4ea",
+        "grade_grade": 89320,
+        "comment": "Excellent work!",
+        "date_given": "2023-10-07T00:57:49.903Z",
+        "created_at": "2023-10-07T04:01:48.517Z",
+        "updated_at": "2023-10-06T16:55:15.259Z",
+        "assignment_id": "21993bf1-e98a-46b6-8c38-e954e4a0c1ef",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d480c381-78f3-4ddb-843e-f9fb6f7d0399",
+        "grade_grade": 50566,
+        "comment": "Well done!",
+        "date_given": "2023-10-06T21:22:24.873Z",
+        "created_at": "2023-10-06T21:17:44.769Z",
+        "updated_at": "2023-10-06T15:59:29.234Z",
+        "assignment_id": "4c135d80-ab7c-43e1-bae8-1a91da3d7d9a",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "675266a6-0792-49e4-a53f-e4cdb96d1d44",
+        "grade_grade": 85842,
+        "comment": "Great effort!",
+        "date_given": "2023-10-06T16:02:51.578Z",
+        "created_at": "2023-10-07T07:35:13.792Z",
+        "updated_at": "2023-10-07T04:22:23.731Z",
+        "assignment_id": "934ab13d-d58a-4e98-9f9a-74c11f1f9105",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f26bd0ce-46cf-4195-9c01-36dec24a00ef",
+        "grade_grade": 75376,
+        "comment": "Good job!",
+        "date_given": "2023-10-06T22:07:45.154Z",
+        "created_at": "2023-10-06T10:32:02.716Z",
+        "updated_at": "2023-10-06T18:37:48.093Z",
+        "assignment_id": "63196556-800b-42d6-a210-4efa4705c812",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d0351d92-bc53-4844-8d28-87cbaca18f1e",
+        "grade_grade": 20598,
+        "comment": "Keep up the good work!",
+        "date_given": "2023-10-06T21:00:00.226Z",
+        "created_at": "2023-10-07T02:44:45.775Z",
+        "updated_at": "2023-10-06T13:15:39.948Z",
+        "assignment_id": "4c135d80-ab7c-43e1-bae8-1a91da3d7d9a",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4816c96b-cd55-4d03-9a1f-00308384b3e0",
+        "email": "Ellsworth.Kuhlman98@roq.tech",
+        "firstName": "Amelie",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f2b16c30-24ff-40b3-afbf-5bd2aa497372",
+        "email": "Willie_Fahey-Reinger@roq.tech",
+        "firstName": "Osborne",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/723.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac058f42-1243-490e-a6d8-73ebabf1a2fa",
+        "email": "Maryse.Schowalter@roq.tech",
+        "firstName": "Gene",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50565920",
+        "tenantId": null
+      },
+      {
+        "reference": "ad083694-6cc0-4e2a-bbcc-3d296c8ed2fb",
+        "email": "Kasandra66@roq.tech",
+        "firstName": "Leonard",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/590.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c34b1594-cb82-4416-a99d-c1254b2d6edc",
+        "email": "Janet.Green51@roq.tech",
+        "firstName": "Skye",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/383.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lesson": [
+      {
+        "id": "0c488b77-e2cc-497e-8535-4aa983696e0e",
+        "title": "Introduction to Biology",
+        "description": "Learn the basics of biology and its importance in everyday life",
+        "start_time": "2023-10-06T21:42:46.647Z",
+        "end_time": "2023-10-07T01:21:05.685Z",
+        "created_at": "2023-10-06T21:04:37.906Z",
+        "updated_at": "2023-10-06T18:39:03.032Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "428ea7e2-9147-4f84-8b5f-58296d139ee6",
+        "title": "History of Ancient Rome",
+        "description": "Explore the fascinating history of ancient Rome and its impact on modern society",
+        "start_time": "2023-10-06T13:54:03.253Z",
+        "end_time": "2023-10-06T21:33:41.006Z",
+        "created_at": "2023-10-06T22:03:09.260Z",
+        "updated_at": "2023-10-07T06:09:39.036Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "e24fd326-c785-49aa-8adf-d1aa32d0d961",
+        "title": "Introduction to Programming",
+        "description": "Get started with programming and learn the fundamentals of coding",
+        "start_time": "2023-10-06T15:43:15.957Z",
+        "end_time": "2023-10-07T03:19:02.986Z",
+        "created_at": "2023-10-06T18:18:48.760Z",
+        "updated_at": "2023-10-07T08:39:44.404Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4eb903d1-3771-4e16-8ee2-34afa616a568",
+        "title": "Artificial Intelligence Fundamentals",
+        "description": "Discover the principles and applications of artificial intelligence",
+        "start_time": "2023-10-06T10:16:40.567Z",
+        "end_time": "2023-10-07T03:54:26.140Z",
+        "created_at": "2023-10-07T01:13:21.966Z",
+        "updated_at": "2023-10-07T07:05:19.216Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b115efdb-adcf-4520-b76f-04ed1534c7bf",
+        "title": "Introduction to Psychology",
+        "description": "Gain insights into the human mind and behavior with an introduction to psychology",
+        "start_time": "2023-10-07T01:56:54.120Z",
+        "end_time": "2023-10-07T06:25:43.197Z",
+        "created_at": "2023-10-07T09:40:59.300Z",
+        "updated_at": "2023-10-06T22:55:16.520Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "9524fe42-9abf-4f8a-a83c-2c48cf2b626a",
+        "date": "2023-10-06T21:49:46.294Z",
+        "status": "Present",
+        "created_at": "2023-10-06T12:42:15.053Z",
+        "updated_at": "2023-10-06T12:13:08.282Z",
+        "lesson_id": "4eb903d1-3771-4e16-8ee2-34afa616a568",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "350fb48e-a74d-4e79-82ef-766ceddb6877",
+        "date": "2023-10-06T18:01:16.211Z",
+        "status": "Absent",
+        "created_at": "2023-10-07T03:00:52.570Z",
+        "updated_at": "2023-10-06T17:24:44.380Z",
+        "lesson_id": "0c488b77-e2cc-497e-8535-4aa983696e0e",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "64d9317e-146f-4978-be48-f80a81ed2a06",
+        "date": "2023-10-07T00:38:47.775Z",
+        "status": "Late",
+        "created_at": "2023-10-07T00:43:16.080Z",
+        "updated_at": "2023-10-06T12:07:01.906Z",
+        "lesson_id": "4eb903d1-3771-4e16-8ee2-34afa616a568",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "c1dc1d6f-4bc3-4dcb-9b81-b6bfe4be7c21",
+        "date": "2023-10-06T13:36:52.841Z",
+        "status": "Excused",
+        "created_at": "2023-10-06T20:11:37.169Z",
+        "updated_at": "2023-10-06T13:29:00.970Z",
+        "lesson_id": "428ea7e2-9147-4f84-8b5f-58296d139ee6",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "d0df9184-134a-477f-97c9-58446d64ca86",
+        "date": "2023-10-06T19:08:01.715Z",
+        "status": "On Leave",
+        "created_at": "2023-10-07T06:49:10.063Z",
+        "updated_at": "2023-10-07T04:35:10.482Z",
+        "lesson_id": "e24fd326-c785-49aa-8adf-d1aa32d0d961",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "87b20aa5-6ed1-4f05-a36d-9e4ea8bcc034",
+        "title": "Research Paper on Climate Change",
+        "description": "Write a comprehensive research paper on the effects of climate change and potential solutions",
+        "due_date": "2023-10-07T01:19:02.950Z",
+        "created_at": "2023-10-06T19:20:18.558Z",
+        "updated_at": "2023-10-07T00:02:32.351Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0fc22797-dd49-49de-8b17-79b41ff54519",
+        "title": "Math Problem Set 1",
+        "description": "Solve a set of challenging math problems covering various topics",
+        "due_date": "2023-10-06T23:32:34.353Z",
+        "created_at": "2023-10-06T14:31:33.894Z",
+        "updated_at": "2023-10-07T09:21:33.083Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "8ec355f6-8503-41dd-a064-9e9a089b6726",
+        "title": "Literary Analysis of 'To Kill a Mockingbird'",
+        "description": "Analyze the themes, characters, and symbolism in the novel 'To Kill a Mockingbird'",
+        "due_date": "2023-10-07T08:48:01.040Z",
+        "created_at": "2023-10-06T23:44:33.625Z",
+        "updated_at": "2023-10-06T17:58:39.763Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "aae8ba71-22a4-411e-b02f-247e7bf3361c",
+        "title": "Coding Project: Build a Web Application",
+        "description": "Develop a web application using a programming language of your choice",
+        "due_date": "2023-10-07T08:36:21.758Z",
+        "created_at": "2023-10-07T00:12:59.745Z",
+        "updated_at": "2023-10-07T00:33:54.197Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "505b9d56-d4bb-419d-84f0-c2c6c8c3fc92",
+        "title": "Business Case Study: Analyzing Market Trends",
+        "description": "Conduct a detailed analysis of market trends and propose strategies for a fictional business",
+        "due_date": "2023-10-06T22:45:24.844Z",
+        "created_at": "2023-10-07T08:34:22.394Z",
+        "updated_at": "2023-10-07T02:45:46.412Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "59516849-0288-49f5-a693-24c544f71734",
+        "grade_grade": 30677,
+        "comment": "Excellent work! Your understanding of the subject matter is impressive.",
+        "date_given": "2023-10-07T00:20:53.466Z",
+        "created_at": "2023-10-06T12:47:43.340Z",
+        "updated_at": "2023-10-07T07:07:15.191Z",
+        "assignment_id": "87b20aa5-6ed1-4f05-a36d-9e4ea8bcc034",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "fdedfcea-42aa-4422-9aad-f93e5e3cfa13",
+        "grade_grade": 79069,
+        "comment": "Good effort, but there is room for improvement. Pay attention to detail.",
+        "date_given": "2023-10-06T22:02:57.658Z",
+        "created_at": "2023-10-06T13:14:23.749Z",
+        "updated_at": "2023-10-06T23:33:44.284Z",
+        "assignment_id": "aae8ba71-22a4-411e-b02f-247e7bf3361c",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f34a8c0f-2318-40fe-a1fe-a5a4ebc8cf2b",
+        "grade_grade": 98167,
+        "comment": "Well done! Your analysis and critical thinking skills are commendable.",
+        "date_given": "2023-10-06T14:57:38.855Z",
+        "created_at": "2023-10-07T00:08:28.035Z",
+        "updated_at": "2023-10-07T03:36:28.559Z",
+        "assignment_id": "505b9d56-d4bb-419d-84f0-c2c6c8c3fc92",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0649b676-9367-4dfe-9758-dc2e17f4ea2a",
+        "grade_grade": 72444,
+        "comment": "Keep up the good work. Your dedication and commitment are evident.",
+        "date_given": "2023-10-06T15:14:22.104Z",
+        "created_at": "2023-10-06T12:19:08.189Z",
+        "updated_at": "2023-10-07T06:15:38.462Z",
+        "assignment_id": "0fc22797-dd49-49de-8b17-79b41ff54519",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "ba71341d-a57c-499e-8331-6c9f2c3699a6",
+        "grade_grade": 2402,
+        "comment": "Your work demonstrates a strong grasp of the concepts. Great job!",
+        "date_given": "2023-10-06T16:15:56.422Z",
+        "created_at": "2023-10-06T14:01:27.683Z",
+        "updated_at": "2023-10-07T10:01:39.506Z",
+        "assignment_id": "505b9d56-d4bb-419d-84f0-c2c6c8c3fc92",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "92ffa688-8c04-4a2f-89e8-55786afc295d",
+        "email": "Efrain.Hickle@roq.tech",
+        "firstName": "Jakob",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6804b794-1b95-4870-ae4b-366fa99616b9",
+        "email": "Aliyah.Breitenberg-Romaguera47@roq.tech",
+        "firstName": "Sharon",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/557.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8106d30-b815-411b-8b5c-6313a1f02b8d",
+        "email": "Hyman_Dach19@roq.tech",
+        "firstName": "Marvin",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65612380",
+        "tenantId": null
+      },
+      {
+        "reference": "15dcc454-6bdf-4279-8024-227f13c2d724",
+        "email": "Camylle.Mante@roq.tech",
+        "firstName": "Mafalda",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/782.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc734eb2-8e18-4e1f-b3f1-e48f108573c6",
+        "email": "Jevon37@roq.tech",
+        "firstName": "Eda",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70273856",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lesson": [
+      {
+        "id": "a62eeba9-de8e-453d-9dc6-b4ff67ca0b4c",
+        "title": "Introduction to Physics",
+        "description": "Learn the basic principles of physics",
+        "start_time": "2023-10-07T05:44:07.197Z",
+        "end_time": "2023-10-06T13:19:01.615Z",
+        "created_at": "2023-10-06T20:46:49.346Z",
+        "updated_at": "2023-10-06T18:03:38.914Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d74ca824-9939-4ab6-8f62-e3757dc66fbf",
+        "title": "History of World War II",
+        "description": "Explore the events and impact of World War II",
+        "start_time": "2023-10-07T00:04:59.936Z",
+        "end_time": "2023-10-07T05:05:35.646Z",
+        "created_at": "2023-10-07T07:05:14.227Z",
+        "updated_at": "2023-10-07T06:33:36.953Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "35692a15-e057-4e22-b499-43b188546a5a",
+        "title": "Beginner's Guide to Programming",
+        "description": "Get started with programming",
+        "start_time": "2023-10-06T15:05:56.649Z",
+        "end_time": "2023-10-06T14:44:04.693Z",
+        "created_at": "2023-10-06T22:33:57.860Z",
+        "updated_at": "2023-10-07T00:41:40.645Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "da7afb0c-3ebd-40f7-9fb4-08db3c8fda9e",
+        "title": "Artificial Intelligence Fundamentals",
+        "description": "Discover the fundamentals of AI",
+        "start_time": "2023-10-07T05:22:10.022Z",
+        "end_time": "2023-10-06T10:27:17.387Z",
+        "created_at": "2023-10-06T22:54:18.048Z",
+        "updated_at": "2023-10-07T05:14:06.851Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "e0c7adcf-a69e-4299-bb61-fba8ab169a6b",
+        "title": "Principles of Marketing",
+        "description": "Understand the principles of marketing",
+        "start_time": "2023-10-06T18:59:25.779Z",
+        "end_time": "2023-10-06T18:57:57.262Z",
+        "created_at": "2023-10-06T19:27:00.367Z",
+        "updated_at": "2023-10-07T05:44:35.043Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "51a20254-f989-4218-ac90-3aa67031cfb3",
+        "date": "2023-10-06T10:35:57.185Z",
+        "status": "Present",
+        "created_at": "2023-10-06T11:39:15.901Z",
+        "updated_at": "2023-10-06T21:00:52.059Z",
+        "lesson_id": "e0c7adcf-a69e-4299-bb61-fba8ab169a6b",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "dee1b8ed-0f2a-48e6-877e-b3ad0b7f6d69",
+        "date": "2023-10-07T09:40:13.551Z",
+        "status": "Absent",
+        "created_at": "2023-10-07T04:34:33.986Z",
+        "updated_at": "2023-10-07T03:49:58.694Z",
+        "lesson_id": "a62eeba9-de8e-453d-9dc6-b4ff67ca0b4c",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "93883f43-d452-469d-88d6-2ed4431c09c1",
+        "date": "2023-10-06T13:36:37.358Z",
+        "status": "Late",
+        "created_at": "2023-10-06T15:07:25.558Z",
+        "updated_at": "2023-10-06T14:11:53.967Z",
+        "lesson_id": "da7afb0c-3ebd-40f7-9fb4-08db3c8fda9e",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "ba085ce2-29e1-4a79-a645-eac1607dd45f",
+        "date": "2023-10-06T16:04:12.072Z",
+        "status": "Excused",
+        "created_at": "2023-10-07T08:53:04.999Z",
+        "updated_at": "2023-10-06T23:54:02.783Z",
+        "lesson_id": "e0c7adcf-a69e-4299-bb61-fba8ab169a6b",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "b73e1ed5-e671-4fff-b6e2-3ffb789cabc5",
+        "date": "2023-10-07T04:05:52.991Z",
+        "status": "Tardy",
+        "created_at": "2023-10-07T01:27:40.602Z",
+        "updated_at": "2023-10-07T08:46:34.627Z",
+        "lesson_id": "35692a15-e057-4e22-b499-43b188546a5a",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "4f53a2e5-ca36-4fe9-bb05-8ac791aca4ca",
+        "title": "Research Paper on Climate Change",
+        "description": "Investigate the impact of climate change and propose solutions",
+        "due_date": "2023-10-07T05:20:07.103Z",
+        "created_at": "2023-10-06T12:06:22.590Z",
+        "updated_at": "2023-10-06T15:15:31.557Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "07e03fa0-6ff8-40df-95c5-f785834d8dcb",
+        "title": "Math Problem Set",
+        "description": "Solve a set of math problems covering various topics",
+        "due_date": "2023-10-07T07:50:01.520Z",
+        "created_at": "2023-10-06T10:45:08.626Z",
+        "updated_at": "2023-10-07T08:47:12.173Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d5062d93-9ddb-4902-811a-0da7a317537a",
+        "title": "Design a Website",
+        "description": "Design a visually appealing and user-friendly website",
+        "due_date": "2023-10-07T02:59:17.134Z",
+        "created_at": "2023-10-06T20:11:40.724Z",
+        "updated_at": "2023-10-07T09:35:57.346Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f06597f1-8522-4220-b094-ef618250e686",
+        "title": "Write a Short Story",
+        "description": "Write a captivating short story with a unique plot",
+        "due_date": "2023-10-06T17:37:20.376Z",
+        "created_at": "2023-10-06T15:28:34.644Z",
+        "updated_at": "2023-10-06T11:59:51.219Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "e97ea452-1e19-4034-afb7-b39dda79ca6c",
+        "title": "Create a Marketing Plan",
+        "description": "Develop a comprehensive marketing plan for a product",
+        "due_date": "2023-10-06T13:39:40.776Z",
+        "created_at": "2023-10-06T11:45:36.686Z",
+        "updated_at": "2023-10-06T12:17:56.292Z",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "grade": [
+      {
+        "id": "5b8849c0-315b-4899-9438-68c509121e08",
+        "grade_grade": 63484,
+        "comment": "Excellent work!",
+        "date_given": "2023-10-06T20:33:57.733Z",
+        "created_at": "2023-10-07T08:15:59.392Z",
+        "updated_at": "2023-10-06T21:14:48.843Z",
+        "assignment_id": "e97ea452-1e19-4034-afb7-b39dda79ca6c",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "23acf98d-a6bc-4528-a267-b56c47aa1e22",
+        "grade_grade": 17295,
+        "comment": "Good effort",
+        "date_given": "2023-10-06T20:28:10.518Z",
+        "created_at": "2023-10-06T17:18:40.509Z",
+        "updated_at": "2023-10-07T09:57:59.907Z",
+        "assignment_id": "4f53a2e5-ca36-4fe9-bb05-8ac791aca4ca",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "47982a9a-196c-4cf7-8d25-3aed75106afe",
+        "grade_grade": 82453,
+        "comment": "Needs improvement",
+        "date_given": "2023-10-07T02:07:31.392Z",
+        "created_at": "2023-10-06T13:21:20.148Z",
+        "updated_at": "2023-10-07T04:50:54.400Z",
+        "assignment_id": "d5062d93-9ddb-4902-811a-0da7a317537a",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4ca87549-54be-499d-8a7a-3a39a3e98e89",
+        "grade_grade": 19463,
+        "comment": "Well done!",
+        "date_given": "2023-10-06T23:27:14.912Z",
+        "created_at": "2023-10-06T21:22:38.849Z",
+        "updated_at": "2023-10-06T22:38:13.003Z",
+        "assignment_id": "f06597f1-8522-4220-b094-ef618250e686",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "05e85b74-0898-478c-b3fa-e27774716e5c",
+        "grade_grade": 48043,
+        "comment": "Great job",
+        "date_given": "2023-10-06T23:28:51.875Z",
+        "created_at": "2023-10-06T15:05:16.708Z",
+        "updated_at": "2023-10-06T16:25:52.360Z",
+        "assignment_id": "e97ea452-1e19-4034-afb7-b39dda79ca6c",
+        "student_id": "user_entity_pk",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "da6601ad-389c-47ee-9ce9-348d87ba8765",
+        "email": "Jana46@roq.tech",
+        "firstName": "Ansel",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1028.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19c8b816-14cc-42ad-966d-ded28baeb57f",
+        "email": "Salvatore_Pacocha@roq.tech",
+        "firstName": "Fermin",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7854828",
+        "tenantId": null
+      },
+      {
+        "reference": "f348d7d9-6ad1-4cba-bc07-03f1d4b3774a",
+        "email": "Chesley_Dickinson@roq.tech",
+        "firstName": "Van",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/315.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "67bb4816-b9d5-4d17-a2c8-7095c4bc10c2",
+        "email": "Major1@roq.tech",
+        "firstName": "Leilani",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/47.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "82b5dc38-5cae-4775-89a8-f6284532f941",
+        "email": "Theo16@roq.tech",
+        "firstName": "Nickolas",
+        "lastName": "Murray-Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/900.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]

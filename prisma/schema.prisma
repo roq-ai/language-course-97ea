@@ -1,0 +1,96 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model assignment {
+  id                               String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  title                            String   @db.VarChar(255)
+  description                      String   @db.VarChar(255)
+  due_date                         DateTime @db.Timestamp(6)
+  teacher_id                       String   @db.Uuid
+  student_id                       String   @db.Uuid
+  created_at                       DateTime @default(now()) @db.Timestamp(6)
+  updated_at                       DateTime @default(now()) @db.Timestamp(6)
+  user_assignment_student_idTouser user     @relation("assignment_student_idTouser", fields: [student_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user_assignment_teacher_idTouser user     @relation("assignment_teacher_idTouser", fields: [teacher_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  grade                            grade[]
+}
+
+model attendance {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  date       DateTime @db.Timestamp(6)
+  status     String   @db.VarChar(255)
+  lesson_id  String   @db.Uuid
+  student_id String   @db.Uuid
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  lesson     lesson   @relation(fields: [lesson_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user       user     @relation(fields: [student_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model company {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?  @db.VarChar(255)
+  name        String   @db.VarChar(255)
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  user_id     String   @db.Uuid
+  tenant_id   String   @db.VarChar(255)
+  user        user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model grade {
+  id                          String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  grade_grade                 Int
+  comment                     String     @db.VarChar(255)
+  date_given                  DateTime   @db.Timestamp(6)
+  teacher_id                  String     @db.Uuid
+  student_id                  String     @db.Uuid
+  assignment_id               String     @db.Uuid
+  created_at                  DateTime   @default(now()) @db.Timestamp(6)
+  updated_at                  DateTime   @default(now()) @db.Timestamp(6)
+  assignment                  assignment @relation(fields: [assignment_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user_grade_student_idTouser user       @relation("grade_student_idTouser", fields: [student_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user_grade_teacher_idTouser user       @relation("grade_teacher_idTouser", fields: [teacher_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model lesson {
+  id                           String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  title                        String       @db.VarChar(255)
+  description                  String       @db.VarChar(255)
+  start_time                   DateTime     @db.Timestamp(6)
+  end_time                     DateTime     @db.Timestamp(6)
+  teacher_id                   String       @db.Uuid
+  student_id                   String       @db.Uuid
+  created_at                   DateTime     @default(now()) @db.Timestamp(6)
+  updated_at                   DateTime     @default(now()) @db.Timestamp(6)
+  attendance                   attendance[]
+  user_lesson_student_idTouser user         @relation("lesson_student_idTouser", fields: [student_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user_lesson_teacher_idTouser user         @relation("lesson_teacher_idTouser", fields: [teacher_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model user {
+  id                                     String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email                                  String       @unique @db.VarChar(255)
+  firstName                              String?      @db.VarChar(255)
+  lastName                               String?      @db.VarChar(255)
+  roq_user_id                            String       @db.VarChar(255)
+  tenant_id                              String       @db.VarChar(255)
+  created_at                             DateTime     @default(now()) @db.Timestamp(6)
+  updated_at                             DateTime     @default(now()) @db.Timestamp(6)
+  assignment_assignment_student_idTouser assignment[] @relation("assignment_student_idTouser")
+  assignment_assignment_teacher_idTouser assignment[] @relation("assignment_teacher_idTouser")
+  attendance                             attendance[]
+  company                                company[]
+  grade_grade_student_idTouser           grade[]      @relation("grade_student_idTouser")
+  grade_grade_teacher_idTouser           grade[]      @relation("grade_teacher_idTouser")
+  lesson_lesson_student_idTouser         lesson[]     @relation("lesson_student_idTouser")
+  lesson_lesson_teacher_idTouser         lesson[]     @relation("lesson_teacher_idTouser")
+}
